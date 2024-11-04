@@ -1,7 +1,7 @@
 const {Web3} = require('web3');
 const fs = require('fs');
 const csv = require('csv-parser');
-var web3 = new Web3(Web3.givenProvider || "https://base-mainnet.infura.io/v3/a3ff43d1e8bf4efa8485ed7c06ce6e1d");
+var web3 = new Web3(Web3.givenProvider || "https://base-mainnet.infura.io/v3/{Your api key}");
 
 
 const contractABI = [
